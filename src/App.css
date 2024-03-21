@@ -32,7 +32,73 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.html,
+body {
+  background-color: #0c0c0d;
+  color: white;
+}
+
+.bg-dark-c {
+  background-color: #141314;
+}
+
+.text-colour-c {
+  color: #a9a9a9;
+}
+
+.bg-theme-color {
+  color: #61dafb;
+}
+
+.text-theme-color {
+  color: #61dafb;
+}
+
+.not-selected-nav {
+  color: #a9a9a9;
+}
+
+.nav-font {
+  font-size: small;
+  text-decoration: none !important;
+}
+
+.link-no-line {
+  text-decoration: none !important;
+}
+
+.custom-pp-size {
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .disappear-when-small {
+    display: none;
+  }
+
+  .my-sm-3 {
+    margin-top: 2rem !important;
+  }
+
+  .scale-15 {
+    transform: scale(1.8) !important;
+    right: 50% !important;
+    margin-right: 10% !important;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sm-move-down {
+    margin-top: 2rem;
+  }
+}
+
+.scale-15 {
+  transform: scale(1.4);
 }
