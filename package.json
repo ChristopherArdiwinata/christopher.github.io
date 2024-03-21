@@ -1,6 +1,6 @@
 {
-  "homepage": "https://christopherardiwinata.github.io/web-portfolio",
-  "name": "web-portfolio",
+  "homepage": "https://christopherardiwinata.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
